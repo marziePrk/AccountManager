@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="fa">
+    <meta charset="UTF-8">
+    <link href="../style/Style.css" rel="stylesheet">
+    <title>جستجوی مشتری حقیقی</title>
+<body>
+<div class="pageHeader">
+</div>
+<div><h6>نسخه آزمایشی</h6></div>
+<div class="content">
+    <h1 style="color: saddlebrown">لطفا اطلاعات مشتری را وارد نمایید:</h1>
+    <br>
+    <div class="tableBox">
+        <form action="/SearchRealCustomerServlet" method="post">
+            <table >
+                <tr>
+                    <td>نام : </td>
+                    <td><input name="firstName" type="text"></td>
+                </tr>
+                <tr>
+                    <td>نام خانوادگی : </td>
+                    <td><input name="lastName" type="text"></td>
+                </tr>
+                <tr>
+                    <td>نام پدر : </td>
+                    <td><input name="fatherName" type="text"></td>
+                </tr>
+                <tr>
+                    <td>تاریخ تولد : </td>
+                    <td><input name="birthDate" type="text"></td>
+                </tr>
+                <tr>
+                    <td>شماره ملی :    </td>
+                    <td><input name="nationalCode" type="text"></td>
+                </tr>
+
+            </table>
+            <input type="submit" class="button" value="جستجو ">
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

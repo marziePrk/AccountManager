@@ -1,0 +1,70 @@
+body{
+    background-image: url("../images/bank2.jpg") ;
+    direction: rtl;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+p{
+    font-size: 400%;
+    color: saddlebrown;
+    height: 50px;
+    padding-top: 0;
+}
+.content{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    }
+
+.pageHeader{
+    width: 15%;
+    margin: 40px auto 0 auto;
+    padding-bottom: 90px;
+    background-image: url("../images/pasargad.jpg") ;
+}
+.button{
+    border-radius: 25px;
+    border: 3px solid saddlebrown ;
+    margin: 10px 5px 5px 5px;
+    background-color: burlywood;
+    color: saddlebrown;
+    font-size: 25px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    height: 50px;
+    font-family: arial, sans-serif;
+}
+.button:hover {background-color: bisque}
+
+.button:active {
+    background-color: bisque;
+    box-shadow: 0 5px ;
+    transform: translateY(4px);
+}
+form{
+    align-items: center;
+    font-size:20px ;
+    color: saddlebrown;
+}
+.tableBox {
+    margin: 10px 500px 10px  500px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.title{
+    background-color: red;
+    height: 85px;
+    margin-top: 80px;
+}
+h6{
+    color: saddlebrown;
+    margin-top: 0px;
+    padding-top: 0px;
+}
