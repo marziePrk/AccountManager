@@ -1,5 +1,7 @@
 package presentationLayer;
 
+import dataAccessLayer.LegalCustomer;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,6 +17,7 @@ public class SearchLegalCustomerServlet extends HttpServlet {
         System.out.println(registerDate);
         String economicId = request.getParameter("economicId");
         System.out.println(economicId);
+        LegalCustomer legalCustomer = new LegalCustomer();
     }
     public void doPost(HttpServletRequest request , HttpServletResponse response){
         doGet(request , response);

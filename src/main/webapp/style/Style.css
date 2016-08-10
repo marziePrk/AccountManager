@@ -6,8 +6,9 @@ body{
     text-align: center;
 }
 h2{
-    padding-top: 5px;
-    margin-top: 5px;
+    color:saddlebrown ;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 p{
     font-size: 400%;
@@ -53,7 +54,7 @@ form{
     color: saddlebrown;
 }
 .tableBox {
-    margin: 10px 500px 10px  500px;
+    margin: 5px 500px 10px  500px;
     text-align: center;
     align-content: center;
     align-items: center;
