@@ -1,4 +1,4 @@
-package dataAccessLayer;
+package util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -48,7 +48,6 @@ public class DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }*/
 
 }
