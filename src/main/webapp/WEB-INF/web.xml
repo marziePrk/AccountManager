@@ -24,6 +24,30 @@
         <servlet-name>SearchRealCustomerServlet</servlet-name>
         <servlet-class>presentationLayer.SearchRealCustomerServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DeleteLegalCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.DeleteLegalCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteRealCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.DeleteRealCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateLegalCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.UpdateLegalCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateRealCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.UpdateRealCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SaveLegalCustomerChangedServlet</servlet-name>
+        <servlet-class>presentationLayer.SaveLegalCustomerChangedServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SaveRealCustomerChangedServlet</servlet-name>
+        <servlet-class>presentationLayer.SaveRealCustomerChangedServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>CreateLegalCustomerServlet</servlet-name>
@@ -43,6 +67,30 @@
     <servlet-mapping>
         <servlet-name>SearchRealCustomerServlet</servlet-name>
         <url-pattern>/SearchRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteLegalCustomerServlet</servlet-name>
+        <url-pattern>/DeleteLegalCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteRealCustomerServlet</servlet-name>
+        <url-pattern>/DeleteRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateLegalCustomerServlet</servlet-name>
+        <url-pattern>/UpdateLegalCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateRealCustomerServlet</servlet-name>
+        <url-pattern>/UpdateRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SaveLegalCustomerChangedServlet</servlet-name>
+        <url-pattern>/SaveLegalCustomerChangedServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SaveRealCustomerChangedServlet</servlet-name>
+        <url-pattern>/SaveRealCustomerChangedServlet</url-pattern>
     </servlet-mapping>
 
 </web-app>
